@@ -116,8 +116,8 @@ a {
 }
 .plants-title {
     font-size: 2.3rem;
-    margin: 0;
-    padding: 0.8rem auto;
+    margin: 0 0 0.8rem 0;
+    padding: 0.8rem auto auto 1rem;
 }
 .plants-description {
     padding: 0.3rem 6rem;
@@ -161,4 +161,49 @@ a {
     display: flex;
     flex-direction: column;
     margin: 5rem 0;
+}
+.plants-lover-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 0;
+    padding-left: 0;
+}
+.plants-lover-title {
+    font-size: 2.3rem;
+    margin-bottom: 0.9rem;
+    margin-left: 0.5rem;
+    padding-left: 0;
+}
+.plants-lover-description {
+    padding-left: 1.7rem;
+    padding-top: 0.2rem;
+    margin-top: 0;
+}
+.plants-lover-image img {
+    width: 366px;
+    height: auto;
+}
+.plants-lover-image {
+    position: relative;
+}
+.plants-lover-section {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 2.9rem;
+    height: 600px;
+    margin: 8.7rem 0 4rem 0;
+}
+.badge {
+  position: absolute;
+  top: -5.8rem;
+  right: -5rem;
+  z-index: 1000;
+}
+
+.badge img {
+  width: 204px;
+  height: auto;
+  display: block;
 }
