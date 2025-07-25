@@ -32,11 +32,11 @@ a {
 .cart img {
     margin-right: 0;
 }
-.navlink {
+.link {
     display: flex;
     gap: 2rem;
 }
-.navlinks {
+.links {
     list-style: none;
     display: flex;
     gap: 2.2rem;
@@ -131,6 +131,7 @@ a {
     text-align: center;
     padding: 1rem auto;
     height: 2.1rem;
+    cursor: pointer;
 }
 .button a {
     color: #fff;
@@ -214,9 +215,9 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 377px;
-    width: 161.7vh;
+    width: 1028px;
     margin-left: -15%;
-    margin-right: -40%;
+    margin-right: -40px;
     margin-top: 0%;
     margin-bottom: 8rem;
     padding-right: -4px; 
@@ -250,4 +251,51 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.footer-description {
+    margin: 0;
+    padding-top: 0.8rem;
+}
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0 1rem 0 0;
+} 
+.footer-logo img {
+    width: 150px;
+    height: auto;
+    margin: 0;
+}
+.footer-link-list li{
+    margin: 0.8rem 0;
+    padding: 0.2rem 0;
+}
+.footer-link-list li>a {
+    color: #8987A1;
+    text-decoration: none;
+    font-size: small;
+}
+.footer-link-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-weight: 400;
+    column-gap: 2.3rem;
+    padding: 0;
+    margin: 0 0 1.2rem 0;
+}
+.social-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 1rem;
+    padding: 0;
+    gap: 2.3rem;
+}
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+    margin: 0 ;
 }
