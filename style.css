@@ -67,7 +67,7 @@ a {
     padding: 0;
     flex: 1;
 }
-.FRESH-FLOWERS {
+.orrange-text {
     color: #E95A08;
 }
 .banner-title {
@@ -92,4 +92,73 @@ a {
     justify-content: space-between;
     height: 400px;
     gap: 12px;
+}
+.card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.2rem auto;
+}
+.card-price {
+   font-weight: 800;
+   padding-top: 0.3rem;
+   margin: 0;
+}
+.card-title {
+  font-weight: 500;
+  margin: 0;
+}
+.plants-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.plants-title {
+    font-size: 2.3rem;
+    margin: 0;
+    padding: 0.8rem auto;
+}
+.plants-description {
+    padding: 0.3rem 6rem;
+}
+.button {
+    color: #fff;
+    font-weight: 400;
+    background-color: #E95A08;
+    border: none;
+    text-align: center;
+    padding: 1rem auto;
+    height: 2rem;
+}
+.button a {
+    color: #fff;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #723106;
+}
+.card img {
+    width: 11.5rem;
+    height: 17rem;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+}
+.card:hover {
+    box-shadow: 0 2px 4px #723106;
+    transform: translateY(-4px);
+    transition: transform 0.2s ease-in-out;
+}
+.plants-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.4rem;
+    margin: 1.5rem 0;
+}
+.plants-section {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0;
 }
