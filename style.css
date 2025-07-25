@@ -2,6 +2,13 @@ body {
   margin: 1% 10%;
   padding: 6px 4px;
 }
+@media screen and (max-width: 576px) {
+  body {
+    margin: 4px 8px;
+    padding: 1px;
+  }
+    
+}
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -77,6 +84,12 @@ a {
     margin: 0;
     flex: 1;
 }
+@media screen and (max-width: 576px) {
+    .banner-title {
+        font-size: 2.3rem;
+        padding: 0;
+    }  
+}
 .banner-image,
 .banner-text {
     width: 570px;
@@ -86,12 +99,26 @@ a {
     height: auto;
     display: block;
 }
+@media screen and (max-width: 576px) {
+    .banner-image,
+    .banner-text {
+        width: 100%;
+    }
+    
+}
 .banner-section {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     height: 400px;
     gap: 12px;
+}
+@media screen and (max-width: 576px) {
+    .banner-section {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    
 }
 .card-text {
     display: flex;
@@ -148,6 +175,13 @@ a {
     display: flex;
     flex-direction: column;
 }
+@media screen and (max-width: 576px) {
+    .plants-cards {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    
+}
 .card:hover {
     box-shadow: 0 2px 4px #723106;
     transform: translateY(-4px);
@@ -189,6 +223,20 @@ a {
     width: 366px;
     height: auto;
 }
+@media screen and (max-width: 576px) {
+    .plants-lover-image img {
+        width: 100%;
+        height: auto;
+    }
+    .badge {
+        display: none;
+    }
+    .plants-lover-section {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+}
 .plants-lover-image {
     position: relative;
 }
@@ -222,6 +270,21 @@ a {
     margin-bottom: 8rem;
     padding-right: -4px; 
     padding-left: -4px;
+}
+@media screen and (max-width: 576px) {
+    .join-section {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .join-form input {
+        width: 300px;
+        height: 1.6rem;
+    }
+    .join-form button {
+        width: 105px;
+    }
 }
 .join-title {
     color: #fff;
@@ -284,6 +347,12 @@ a {
     column-gap: 2.3rem;
     padding: 0;
     margin: 0 0 1.2rem 0;
+}
+@media screen and (max-width: 576px) {
+    .footer-link-list {
+        grid-template-columns: 1fr;
+    }
+    
 }
 .social-links {
     list-style: none;
