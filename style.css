@@ -1,0 +1,95 @@
+body {
+  margin: 1% 10%;
+  padding: 6px 4px;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.light-text {
+  color: #8987A1;
+  font-weight: 400;
+}
+.cart,
+.home {
+    color: #000;
+}
+.cart,
+.home,
+.light-text {
+    font-size: smaller;
+}
+a {
+    text-decoration: none;
+    color:#343a40;
+}
+.cart {
+    display: flex;
+    align-items: center;
+}
+.cart img {
+    margin-right: 0;
+}
+.navlink {
+    display: flex;
+    gap: 2rem;
+}
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 2.2rem;
+}
+.navtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    height: 58px;
+    width: auto;
+    display: block;
+}
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.side-text {
+    font-size: medium;
+    font-weight: 380;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+.FRESH-FLOWERS {
+    color: #E95A08;
+}
+.banner-title {
+    font-size: 2.9rem;
+    line-height: 1.4;
+    padding-bottom: 0.5rem;
+    margin: 0;
+    flex: 1;
+}
+.banner-image,
+.banner-text {
+    width: 570px;
+}
+.banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.banner-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 400px;
+    gap: 12px;
+}
