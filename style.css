@@ -4,7 +4,7 @@ body {
 }
 @media screen and (max-width: 576px) {
   body {
-    margin: 4px 40px;
+    margin: 4px 20px;
     padding: 1px;
   }
     
@@ -46,6 +46,9 @@ a {
 @media screen and (max-width: 576px) {
     .link {
         display: none;
+    }
+    .navtitle {
+        margin: 5px 0 8px 0;
     }
     
 }
@@ -92,13 +95,13 @@ a {
 }
 @media screen and (max-width: 576px) {
     .banner-title {
-        font-size: 2.3rem;
+        font-size: 2.2rem;
         padding: 0;
     }  
 }
 .banner-image,
 .banner-text {
-    width: 570px;
+    width: 100%;
 }
 .banner-image img {
     width: 100%;
@@ -111,7 +114,7 @@ a {
         width: 100%;
     }
     .banner-image {
-        margin: 0 -41px;
+        margin: 0 -21px;
     }
     
 }
@@ -211,6 +214,7 @@ a {
     }
     .plants-description {
         padding: 1.8rem 0;
+        margin: 1rem;
     }
     .plants-title {
         margin: 0;
@@ -242,15 +246,17 @@ a {
 .plants-lover-description {
     padding-left: 1rem;
     padding-top: 0;
-    margin: 0 0 0 1rem;
+    margin: 0 5px 0 15px;
     height: auto;
-    width: 366x;
+    width: 100%;
 }
 .plants-lover-description li{
-    margin: 0 0 1rem 0;
+    margin-bottom: 1rem;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .plants-lover-image img {
-    width: 366px;
+    width: 100%;
     height: auto;
 }
 @media screen and (max-width: 576px) {
@@ -288,7 +294,13 @@ a {
         margin: 0;
     }
     .plants-lover-description li{
-        margin: 1rem 0 2rem 2rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0.2rem;
+        margin-right: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
     }
     
 }
@@ -358,7 +370,7 @@ input[type="email"]:hover {
 }
 @media screen and (max-width: 576px) {
     .join-section {
-       margin: 0 -41px;
+       margin: 0 -21px;
     }
     .join-form button{
        width: 80px;
@@ -435,7 +447,7 @@ input[type="email"]:hover {
     }
     .footer-description {
         margin-top: 0.4rem;
-        padding: 0.3rem 2rem 0.3rem 0;
+        padding: 0.3rem 1rem 0.3rem 0;
     }
     
 }
