@@ -110,6 +110,9 @@ a {
     .banner-text {
         width: 100%;
     }
+    .banner-image {
+        margin: 0 -41px;
+    }
     
 }
 .banner-section {
