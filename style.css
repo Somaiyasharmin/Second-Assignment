@@ -4,7 +4,7 @@ body {
 }
 @media screen and (max-width: 576px) {
   body {
-    margin: 4px 8px;
+    margin: 4px 40px;
     padding: 1px;
   }
     
@@ -154,7 +154,8 @@ a {
     padding: 0.8rem auto auto 1rem;
 }
 .plants-description {
-    padding: 0.3rem 6rem;
+    padding: 3rem 4rem;
+    margin: 0 2rem;
 }
 .button {
     color: #fff;
@@ -206,7 +207,7 @@ a {
         margin: 0;
     }
     .plants-description {
-        padding: 3rem;
+        padding: 1.8rem 0;
     }
     .plants-title {
         margin: 0;
@@ -224,22 +225,26 @@ a {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-top: 0;
+    margin: 0.4rem 0;
     padding-left: 0;
 
 }
 .plants-lover-title {
     font-size: 2.3rem;
-    margin-bottom: 0.9rem;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
     margin-left: 0.5rem;
     padding-left: 0;
 }
 .plants-lover-description {
-    padding-left: 1.7rem;
-    padding-top: 0.1rem;
-    margin-top: 0;
+    padding-left: 1rem;
+    padding-top: 0;
+    margin: 0 0 0 1rem;
     height: auto;
     width: 366x;
+}
+.plants-lover-description li{
+    margin: 0 0 1rem 0;
 }
 .plants-lover-image img {
     width: 366px;
@@ -268,7 +273,7 @@ a {
     .plants-lover-text {
         width: 100%;
         height: auto;
-        margin: 0;
+        margin: 0 ;
         padding: 0;
     }
     .plants-lover-title {
@@ -277,11 +282,10 @@ a {
     }
     .plants-lover-description {
         font-size: 1rem;
-        margin: 0.5rem 0.5rem 0
-        0.5rem;
+        margin: 0;
     }
     .plants-lover-description li{
-        margin: 0.6rem;
+        margin: 1rem 0 2rem 2rem;
     }
     
 }
@@ -294,15 +298,15 @@ a {
     align-content: center;
     gap: 2.9rem;
     height: auto;
-    margin: 8rem 0 2.2rem 0;
+    margin: 6rem 0 2rem 0;
 }    
 .badge {
   position: absolute;
   top: -5.8rem;
-  right: -5rem;
+  right: -4.6rem;
 }
 .badge img {
-  width: 204px;
+  width: 200px;
   height: auto;
   display: block;
 }
@@ -351,7 +355,7 @@ input[type="email"]:hover {
 }
 @media screen and (max-width: 576px) {
     .join-section {
-       margin: 2px -8.8px;
+       margin: 0 -41px;
     }
     .join-form button{
        width: 80px;
@@ -420,6 +424,15 @@ input[type="email"]:hover {
     .footer-link-list {
         display: grid;
         grid-template-columns: 1fr;
+        column-gap: 0.1rem;
+        margin-top: 0;
+    }
+    .footer-link-list li{
+        margin: 0.5rem 0;
+    }
+    .footer-description {
+        margin-top: 0.4rem;
+        padding: 0.3rem 2rem 0.3rem 0;
     }
     
 }
@@ -443,8 +456,8 @@ input[type="email"]:hover {
         flex-direction: column;
         align-items: left;
         width: 100%;
-        height: 755px;
-        margin: 0 0 1rem 0;
+        height: auto;
+        margin: 0 0 0.5rem 0;
     }
     .social-links {
         margin: 0;
